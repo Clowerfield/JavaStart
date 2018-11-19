@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang ="ru">
+<head>
+	<meta charset = "utf-8">
+	<title> Лабораторная работа №1 </title>
+	<link rel="stylesheet" type="text/css" href="CSS/Style.css" >
+	<script src="JS/main.js"></script>
+	<script src="JS/encoder.js"></script>
+	<script src="JS/decoder.js"></script>
+	<script src="JS/Noise.js"></script>
+	<script src="JS/Special.js"></script>
+</head>
+<body>
+	<main>
+		
+		<span class = "ReseivQ"></span><br>
+		<span>Представим в бинарном виде по таблице ASCII:</span><br>
+		<span id = "BinaryQxH"></span><br>
+		
+		<span>
+		<div id = "DevidedBQxH"><span>Проведем разделение по блокам и поставим проверочные биты:...</span><br></div>
+		<div id = "SheldedDBQxH"><span>С расчитанными битами как то спокойней, верно?:</span><br></div>
+		</span><br>
+		
+		<span id = "ShieldedQxH"><span>Соберем все обратно:</span><br></span><br>
+		
+		<span>Пошумим:</span><br>
+		<span id = "NoiseP5"></span>
+		<span id = "NoiseP3"></span><br>
+		<span id = "NoiseP2"></span><br><br>
+		<span id = "NoiseP1"></span><br>
+		<span id = "NoiseP09"></span><br>
+		
+		<span>Шумы сделали свое дело, теперь надо это все разгрести:</span><br>
+		<span>
+		<div id = "DevidedNoiseQ5"></div>
+		<div id = "DevidedNoiseQ3"></div>
+		<div id = "DevidedNoiseQ2"></div>
+		<div id = "DevidedNoiseQ1"></div>
+		<div id = "DevidedNoiseQ09"></div>
+		</span><br>
+		
+		<span>Хемминг старался, и у него получилось:</span><br>
+		<span>
+		<div id = "RecoverNoiseQ5"></div>
+		<div id = "RecoverNoiseQ3"></div>
+		<div id = "RecoverNoiseQ2"></div>
+		<div id = "RecoverNoiseQ1"></div>
+		<div id = "RecoverNoiseQ09"></div>
+		
+		<div id = "FinalNoiseQ5"></div>
+		<div id = "FinalNoiseQ3"></div>
+		<div id = "FinalNoiseQ2"></div>
+		<div id = "FinalNoiseQ1"></div>
+		<div id = "FinalNoiseQ09"></div>
+		
+		</span>
+		
+		<span>Итак, восстановленная последовательность в студию:</span><br>
+		<span>
+		<div id = "StringFinalQ5"></div>
+		<div id = "StringFinalQ3"></div>
+		<div id = "StringFinalQ2"></div>
+		<div id = "StringFinalQ1"></div>
+		<div id = "StringFinalQ09"></div>
+		</span><br>
+		<span>_________________________________________________________________________________________</span><br>
+		<span>Представим в бинарном виде по специальному алфавиту:</span><br>
+		<span id = "BinaryQxC"></span><br>
+		<span>Щепотку контрольных сумм:</span><br>
+		<span id = "BinaryQxCP"></span><br>
+		<span>Столовую ложку шума:</span><br>
+		<span id = "NoiseC5"></span>
+		<span id = "NoiseC3"></span><br>
+		<span id = "NoiseC2"></span><br><br>
+		<span id = "NoiseC1"></span><br>
+		<span id = "NoiseC09"></span><br>
+
+	</main>
+</body>
