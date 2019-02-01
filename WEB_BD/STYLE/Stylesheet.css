@@ -1,0 +1,515 @@
+.content a{
+	text-decoration: none;
+	color: red;
+}
+.Manager{
+	float:left;
+	width: 420px;
+	margin-left: 5px;
+}
+
+.info{
+	color: red;
+}
+.error{
+	border: 2px solid red;
+}
+.error_day{
+	border: 2px solid red;
+	margin-left: 57pt;
+}
+.error_mounth{
+	border: 2px solid red;
+	margin-left: 41.5pt;
+}
+.error_year{
+	border: 2px solid red;
+	margin-left: 43.5pt;
+}
+header{
+	background-image: url(./../IMG/Backup.png);
+	background-repeat: no-repeat;
+	z-index:1;
+}
+.Area{
+	margin-top: -20px;
+	background-image: url(./../IMG/Backdown.png);
+	background-repeat: no-repeat;
+
+	
+}
+.sizable{
+	display: block;
+	margin-left: 10px;
+	height: 480px;
+	margin-top: 10px;
+	
+}
+#submit{
+	width: 75px;
+	margin-left: 69px;
+	margin-top: 10pt;
+}
+#dd{
+	border-color: rgba(49, 111, 160, 0);
+}
+#mm{
+	border-color: rgba(49, 111, 160, 0);
+}
+#yyyy{
+	border-color: rgba(49, 111, 160, 0);
+}
+.day{
+	margin-left: 57pt;
+}
+.mounth{
+	margin-left: 41.5pt;
+}
+.year{
+	margin-left: 43.5pt;
+}
+img{
+	margin-top: -2pt;
+	margin-left: -5pt;
+}
+.name{
+	width: 30px;
+}
+.Navy{
+	padding-top: 90px;
+	margin-top: -7px;
+	margin-left: 6px;
+	width: 100%;
+}
+header span{
+	
+	font-family: Verdana;
+	font-style: Italic;
+	font-size: 10px;
+	font-weight: bold;
+	padding-left: 8.7px;
+	padding-right: 8.7px;
+	padding-bottom: 2px;
+	background-color: black;
+	color: white;
+	margin-left: -0.7px;
+}
+footer span{
+	
+	font-family: Verdana;
+	font-style: Italic;
+	font-size: 10px;
+	font-weight: bold;
+	padding-left: 8.7px;
+	padding-right: 8.7px;
+	padding-bottom: 2px;
+	background-color: black;
+	color: white;
+	margin-left: -0.7px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.Left{
+	float:left;
+	padding-top:8px;
+}
+.Rh{
+	padding-top:5px;
+}
+.Right{
+	margin-top: 80px;
+	margin-left: 10px;
+	float:left;
+	color: rgb(49, 111, 160);
+	font-size: 10px;
+	
+}
+.Middle{
+	width:400px;
+}
+.void{
+	border-bottom-style: solid;
+	border-left-style: solid; 
+	border-color: rgb(49, 111, 160);
+	min-height: 297px;
+}
+.sml{
+	width: 70px;
+	height: 5px;
+}
+.mid{
+	width: 40pt;
+	height: 5pt;
+}
+.big{
+	width: 500pt;
+	height: 5pt;
+	
+}
+.extra{
+	width: 0pt;
+	height: 10px;
+	padding-left: 275px;
+}
+.sextra{
+	width: 0pt;
+	height: 10px;
+	padding-left: 215px;
+}
+.lrg{
+	margin-left: -6px;
+	width: 600pt;
+	height: 5pt;
+}
+.rate>p{
+	font-family: "Times New Roman";
+	font-style: normal;
+	margin-left: 16px;
+	margin-bottom: -12px;
+	font-weight: 570;
+
+}
+.ratend{
+	margin-left: 1px;
+	margin-top: 6px;
+	font-family: Verdana;
+	font-style: normal;
+	font-size: 9px;
+	font-weight: normal;
+	padding-left: 50px;
+}
+h1{
+	margin-left: 15px;
+	font-family: "Arial Narrow";
+	font-size: 25px;
+	text-decoration: underline;
+	color: rgb(49, 111, 160);
+	padding-top: 12px;
+}
+h2{
+	font-family: "Verdana";
+	font-size: 10px;
+	text-decoration: underline;
+}
+h3{
+	color: red;
+	margin-top: -5px;
+}
+.FCh{
+	font-size: 20px;
+	padding-top: 4px;
+	margin-left: 30px;
+	margin-top: 12px;
+}
+.LNh{
+	
+	padding-left: 205px;
+	margin-left: 40px;
+	padding-top: 40px;
+	padding-bottom: 400px;
+}
+.most{
+	margin-top: -500px;
+}
+.List{
+	margin-top: 12px;
+}
+#News{
+	float:left;
+	width: 212px;
+	padding-left: 5px;
+}
+.News{
+	float:left;
+	width: 212px;
+	padding-left: 5px;
+}
+.News>p{
+	margin-top: -2px;
+}
+.Date>span{
+    font-family: "Times New Roman";
+    font-style: normal;
+    font-weight: 570;
+	margin-left: 30px;
+}
+.radio>span{
+	 font-family: "Times New Roman";
+    font-style: normal;
+    font-weight: 570;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+form>span{
+	background-color: rgba(49, 111, 160, 0);
+	 color: red;
+	margin-left: -0.7px;
+}
+#more{
+	text-align: right;
+}
+#spon{
+	
+	text-align: right;
+	margin-left: 670px;
+	padding-bottom: 20px;
+	margin-top: -670px;
+	
+}
+#fan{
+	border-style: solid;
+	border-width: 1px;
+	margin-left: 5px;
+	margin-top: -8px;
+	border-color: #ee7c03;
+}
+.nig{
+	float: left;
+	width: 17px;
+	padding-left: 16px;
+	margin-top: -37px;
+}
+.price{
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 13px;
+}
+/*****************************************************************/
+@keyframes basket {
+     0%  { margin-top: -40px;}
+	10%  { margin-top: -30px;}
+	20%  { margin-top: -20px;}
+    30%  { margin-top: -8px;}
+    40%  { margin-top: 7px;}
+    50%  { margin-top: -8px;}
+	60%  { margin-top: -12px;}
+	70%  { margin-top: -7px;}
+	80%  { margin-top: -2px;}
+	90%  { margin-top: 3px;}
+    100% { margin-top: 7px;}
+}
+input[type="text"]:focus {
+  border: 1px solid #000;
+}
+.Tbl_Cell{
+	display: inline-block;
+	float: left;
+	padding-left: 15px;
+	border-right-style: solid;
+	border-width: 1px;
+	border-color: rgb(168, 168, 168);
+	height: 24px;
+	padding-top: 5px;
+}
+.Tbl_Row:not(:nth-child(2)) .Tbl_Cell{
+	border-top-style: solid;
+}
+.Tbl_Cell:nth-child(odd){
+	width: 120px;
+}
+.Tbl_Cell:nth-child(even){
+	width: 67px;
+}
+.Tbl_Cell:nth-child(n+4){
+	text-align: center;
+	padding-left: 0px;
+}
+.Tbl_Cell:first-child{
+	width: 75px;
+}
+.Tbl_Row:first-child .Tbl_Cell{
+	padding-top: 14px;
+	height:45px;
+	vertical-align: middle;
+}
+.Tbl_Cell:nth-child(2){
+	width: 105px;	
+}
+.Tbl_Cell:last-child{
+	padding-right: 5px;
+	padding-left: none;
+	border-right-style: none;
+}
+.Tbl_Row:not(:first-child) .Tbl_Cell:last-child{
+	background-color: rgb(208, 208, 208);
+	color: rgb(0, 64, 194);
+	font-family: "Calibri";
+	font-weight: bold;
+	text-align: center;
+}
+.Tbl_Row{
+	display: inline-block;
+	vertical-align: middle;	
+}
+.Tbl_Row:first-child{
+	
+	height: 45px;
+	background-color: rgb(236, 236, 236);
+	font-weight: bold;
+	border-bottom-style: none;
+}
+.Div_table{
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(168, 168, 168);
+	width: 609px;
+	font-family: "Arial";
+	font-size: 12px;
+	font-style: normal ;
+	
+}
+#Ball{
+	width: 65px;
+	height: 60px;
+	background: url('../IMG/Ball.png');
+	float: left;
+	margin-left: 45px;
+	position: absolute;
+	margin-top: -px;
+}
+address #Ball{
+	width: 65px;
+	height: 60px;
+	background: url('../IMG/Ball.png');
+	float: left;
+	margin-left: 45px;
+	position: absolute;
+	margin-top: 7px;
+	animation-name: basket;
+    animation-duration: 1s;
+	
+}
+/*****************************************************************/
+#error{
+	color: red;
+	display: none;
+	font-size: 14px;
+}
+.table{
+	float: right;
+	width: 400px;
+	min-height: 78px;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: red;
+	float:left;
+	color: rgb(49, 111, 160);
+	font-size: 10.5px;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-bottom: 7px;
+}
+.lcol{
+	float: left;
+	clear: left;
+	width: 198px;
+}
+.rcol{
+	float: left;
+	width: 198px;
+	border-left-style: solid;
+	border-color: red;
+	border-width: 1px;
+	height: 78px;
+}
+.cpright{
+	
+	 display: flex;
+	 width: 407px;
+	flex-direction: column;
+	margin-top: 6px;
+	font-family: Verdana;
+	font-style: normal;
+	font-size: 9px;
+	font-weight: normal;
+	padding-left: 90px;
+	padding-right: 86px;
+	clear:left;
+}
+.empty{
+	clear:both;
+	padding: 0px;
+}
+.Sponsors{
+	position: relative;
+	margin-left: 595px;
+	margin-top: -445px;
+}
+footer{
+	margin-top: 75px;
+	
+}
+body{
+	max-width: 785px;
+	min-width: 785px;
+	margin: 0 auto;
+}
+.SponLog{
+	margin-top: -10px;
+	font-family: "Arial Narrow" ;
+	text-align: center;
+	width: 180px;
+	min-height: 432px;
+	border-style: solid;
+	border-color: rgb(49, 111, 160);
+	font-size: 12px;
+	font-weight: bold;
+}
+.SponLog h1{
+	margin-left: -10px;
+	margin-top: -2px;
+	padding-bottom: 3px;
+}
+footer img{
+	padding-top:3px;
+}
+.Console{
+	font-family: Verdana;
+	font-style: Italic;
+	width: 400px;
+
+}
+.goods{
+	font-family: Verdana;
+	font-style: Italic;
+	float: left;
+}
+.musicbox{
+	margin-top: -30px;
+	margin-left: 120px;
+}
+/*****************************************************************/
+.cortage{
+	margin-top: 40px;
+	display: inline-block;
+	width: 410px;
+	
+}
+
+.cortage input{
+	margin: 15px;
+}
+ .bd_id{
+    margin-left: 15px;
+    width: 19px;
+}
+.db_admin{
+	background-image: url(./../IMG/Backdown.png);
+}
+.db_admin form{
+	width: 415px;
+	margin-left: 170px;
+	border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: rgb(49, 111, 160);
+}
+.login input{
+	margin-top: 15px;
+	margin-left: 30px;
+	width: 120px;
+}
+/*****************************************************************/

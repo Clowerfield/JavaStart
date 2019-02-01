@@ -1,0 +1,106 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<!DOCTYPE eshop[
+	<!ELEMENT eshop (pair+)>
+	<!ELEMENT pair (serial, brand, price, color, material, year, image)>
+	<!ELEMENT serial (#PCDATA)>
+	<!ELEMENT brand  (#PCDATA)>
+	<!ELEMENT price (#PCDATA)>
+	<!ELEMENT color (#PCDATA)>
+	<!ELEMENT material (#PCDATA)>
+	<!ELEMENT year (#PCDATA)>
+	<!ELEMENT image (#PCDATA)>
+	<!ATTLIST pair id ID #REQUIRED>
+]>
+<eshop>
+		<pair id ="0">
+			<serial>P0BC98</serial>
+			<brand>Puma</brand>
+			<price>1000</price>
+			<color>Blue </color>
+			<material>Cotton</material>
+			<year>1998</year>
+			<image>IMG/eshop/0.jpg </image>
+		</pair>
+		<pair id ="1">
+			<serial>N5BC95</serial>
+			<brand>Nike</brand>
+			<price>1500</price>
+			<color>Black</color>
+			<material>Cotton</material>
+			<year>1995</year>
+			<image>IMG/eshop/1.jpg </image>
+		</pair>
+		<pair id ="2">
+			<serial>N8GC08</serial>
+			<brand>Nike</brand>
+			<price>1800</price>
+			<color>Green</color>
+			<material>Cotton</material>
+			<year>2008</year>
+			<image>IMG/eshop/2.jpg </image>
+		</pair>
+		<pair id ="3">
+			<serial>S1YC05</serial>
+			<brand>Snikers</brand>
+			<price>2100</price>
+			<color>Yellow</color>
+			<material>Cotton</material>
+			<year>2005</year>
+			<image>IMG/eshop/3.jpg </image>
+		</pair>
+		<pair id ="4">
+			<serial>A6BC10</serial>
+			<brand>Abibas</brand>
+			<price>1600</price>
+			<color>Blue</color>
+			<material>Cotton</material>
+			<year>2010</year>
+			<image>IMG/eshop/4.jpg </image>
+		</pair>
+	<pair id ="5">
+			<serial>A8BL13</serial>
+			<brand>Armani</brand>
+			<price>5800</price>
+			<color>Brown</color>
+			<material>Leather</material>
+			<year>2013</year>
+			<image>IMG/eshop/5.jpg </image>
+		</pair>
+		<pair id ="6">
+			<serial>G8YL15</serial>
+			<brand>Gucci</brand>
+			<price>7800</price>
+			<color>Yellow</color>
+			<material>Leather</material>
+			<year>2015</year>
+			<image>IMG/eshop/6.jpg </image>
+		</pair>
+		<pair id ="7">
+			<serial>C0PC15</serial>
+			<brand>CoCo</brand>
+			<price>10200</price>
+			<color>Purple</color>
+			<material>Cotton</material>
+			<year>2015</year>
+			<image>IMG/eshop/7.jpg </image>
+		</pair>
+		<pair id ="8">
+			<serial>D2GL09</serial>
+			<brand>Doulche</brand>
+			<price>12200</price>
+			<color>Green</color>
+			<material>Leather</material>
+			<year>2009</year>
+			<image>IMG/eshop/8.jpg </image>
+		</pair>
+		<pair id ="9">
+			<serial>I2RC12</serial>
+			<brand>Igobana</brand>
+			<price>7200</price>
+			<color>Red</color>
+			<material>Cotton</material>
+			<year>2012</year>
+			<image>IMG/eshop/9.jpg </image>
+		</pair>
+	
+</eshop>
