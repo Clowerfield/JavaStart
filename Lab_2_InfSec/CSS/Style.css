@@ -1,0 +1,12 @@
+body{
+	font-size: 12px;
+	margin: 0 auto;
+}
+div{
+	display: inline-block;
+	float: left;
+}
+main{
+	display: flex;
+	flex-direction: column;
+}

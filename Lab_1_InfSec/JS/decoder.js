@@ -66,12 +66,14 @@ function RepairBlock(array, rule){
 	}
 }
 function ToChar(string){
+	var str = string;
 	var bin = "";
 	var archar = [];
 	var result = "";
-	for(var i= 0; i < string.length; i++){
-	bin += string[i];
-	if((i+1)%11 == 0){
+	if(string.length < 11) str = Equilibrium(string, 11);
+	for(var i= 0; i < str.length; i++){
+	bin += str[i];
+	if((bin.length)%11 == 0){
 			archar.push(bin);
 			bin = "";
 		}

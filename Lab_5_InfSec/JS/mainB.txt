@@ -1,0 +1,60 @@
+var Hamming = ""; 
+var ControlSum = "";
+var ForHamming = prompt("Enter Hammings Queue", "");
+//var ForControl = prompt("Enter ControlSums Queue", "");
+var rows = [];
+var chars = [];
+var result = [];
+var tmp = "";
+
+function Pvalue(source, ruler)
+ {
+ var Sum = 0;
+ for(var i = 0; i < 10; i++)
+ {
+	switch (ruler)
+	{
+		case 2: if(i%ruler) Sum += source[i]; break;
+		case 4: if(i%ruler > 1) Sum += source[i]; break;
+		case 8: if(i%ruler > 3) Sum += source[i]; break;
+		case 16: if(i > 7) Sum += source[i]; break;
+	}
+ }	
+ alert(Sum);
+ return Sum%2;
+ }
+ 
+if (ForHamming == null || ForHamming == "") 
+	{
+		alert("Canceled");
+	} 
+		else 
+	{
+	for(var i = 0; i < ForHamming.length - 1; i+= 11)
+	{
+		rows.push(ForHamming.slice(i, i + 11));
+	}
+	for(var j = 0; j < rows.length - 1; j++)
+	{
+		for(var k = 0; k < 10; k++ )
+		{	
+			var current = rows[j];
+			alert(rows[j]);
+			var result = [];
+			result.push(current.slice(k, k+1));
+			if(k == 0)
+			{
+				tmp += Pvalue(result, 2);
+				tmp += Pvalue(result, 4);
+			}
+			if(k == 1) tmp += Pvalue(result, 8);
+			if(k == 3) tmp += Pvalue(result, 16);
+			tmp += result[k];
+		}
+	Hamming += tmp;
+	tmp = "";
+	}
+    alert("The " + Hamming + " is your binary Expression of Hamming");
+	} 
+ 
+ 
