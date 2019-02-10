@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang ="ru">
+<head>
+	<meta charset = "utf-8">
+	<title> Anuitex project </title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="js/Model.js"></script>
+	<script src="js/Controller.js"></script>
+	<script src="js/View.js"></script>
+
+</head>
+
+
+<body>
+	<header>
+	</header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div class = "navbar-header">
+        <a href="#" class = "navbar-brand">  <big>  Anuitex Project Shop </big>  </a>
+      </div>
+      <div>
+          <ul class="navbar-nav">
+						<li class="active"> <a class="nav-link" id="C" href="create.html"> Create </a> </li>
+						<li> <a class="nav-link" id="R" href="index.html"> Read </a> </li>
+						<li> <a class="nav-link" id="U" href="update.html"> Update </a></li>
+						<li> <a class="nav-link" id="D" href="delete.html"> Delete </a> </li>
+          </ul>
+      </div>
+   </div>
+  </nav>
+  <main>
+    <table class="table">
+      <thead>
+      <tr>
+				<th scope="col">№</th>
+       <th scope="col">Good</th>
+       <th scope="col">Article</th>
+       <th scope="col">Price</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+			<th class="row" style= "width: 100px;">
+					 <div class="col-sm-12">
+      				<input type="form-control" id = "free-point" class="form-control"  placeholder="1" readonly>
+    			</div>
+
+	 		 </th>
+			 	<form>
+        <td><input class="form-control" id="Good" type="text" maxlength="50" placeholder="Good" required></td>
+        <td><input class="form-control" id="Article" type="text" maxlength="50" placeholder="Article" required></td>
+        <td><input class="form-control" id="Price" type="number"  min="0" max="1000000" placeholder="Price" required></td>
+      </tr>
+			<tr><td><button type="submit" class="btn btn-primary mb-2">Confirm</button></td></tr>
+					</form>
+      </tbody>
+
+    </table>
+  </main>
+<blockquote>
+
+  <footer>
+
+	</footer>
+</blockquote>
+</body>

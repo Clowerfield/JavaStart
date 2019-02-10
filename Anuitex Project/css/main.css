@@ -1,0 +1,29 @@
+body header {
+  border-style: solid;
+  border-color: #ccccff;
+  background-color: #ddeeff;
+}
+
+body header h1 {
+  margin: auto;
+}
+
+body header .col-md-3 {
+  background-color: #88cc88;
+}
+
+body header .col-md-3:first-child {
+  background-color: #ff9999;
+}
+
+body header .col-md-3:last-child {
+  background-color: #99ccff;
+}
+
+body header .col-md-6 {
+  background-color: #66cc66;
+}
+
+body footer {
+  background-color: #99ccff;
+}

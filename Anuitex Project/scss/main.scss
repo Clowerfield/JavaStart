@@ -1,0 +1,27 @@
+
+body{
+	header{
+		border-style: solid;
+		border-color: #ccccff;
+		background-color: #ddeeff;
+		h1{
+			margin: auto;
+		}
+		.col-md-3{
+			background-color: #88cc88;
+			&:first-child{
+				background-color: #ff9999;
+			}
+			&:last-child{
+				background-color: #99ccff;
+			}
+		}
+		.col-md-6{
+			background-color: #66cc66;
+
+			}
+	}
+	footer{
+		background-color: #99ccff;
+	}
+}
